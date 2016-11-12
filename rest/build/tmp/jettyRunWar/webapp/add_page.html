@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>Add Anime</title>
+	<script src = "//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div id="wrapper">
+	<h1>Enter Anime Info</h1>
+	<form id="add_form" action="api/animes/add_anime" method="post">
+		<label for="name">Name</label>
+		<input name="name" type="text" ><br/>
+		<label for="type">Type</label>
+		<input name="type" type="text" ><br/>
+		<label for="studio" >Studio</label>
+		<input name="studio" type="text"><br/>
+		<label for="episodes">Episodes</label>
+		<input name="episodes" type="text"><br/>
+		<label for="air_year">Air year</label>
+		<input name="air_year" type="text"><br/>
+		<label for="submit"></label>
+		<input type="submit" value="Add Anime" id="submit">
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#usersTable {
+	text-align: center;
+	margin-top:30px;
+}
+
+#headers {
+	color: #2F343B;
+}
+
+td,th {
+	padding-left:20px;
+	font-size:25px;
+}
+
+button {
+	color:white;
+	background-color:#2F343B;
+	height:30px;
+}
+
+#add_form {
+	margin-top:20px;
+}
+
+label {
+	font-weight:bold;
+	display: inline-block;
+  	width: 70px;
+  	text-align: right;
+}
+
+input {
+	margin-top:30px;
+	height:20px;
+	font-size: 15px;
+}
+
+#submit {
+	background-color:#2F343B;
+	color:white;
+	height:30px;
+}
