@@ -40,6 +40,7 @@ public enum AnimeData {
 	new Anime("Code Geass Gaiden: Boukoku no Akito", "OVA", "Sunrise", 5, 2012),
 	new Anime("One-Punch Man: Road to Hero", "OVA", "MADHOUSE", 1, 2015),
 	new Anime("Haikyuu!!", "TV series", "Production I.G", 25, 2014)};
+	
 	private List<Anime> animes = new ArrayList<Anime>(Arrays.asList(animeArr));
 	
 	public void insertAnime(Anime anime) {

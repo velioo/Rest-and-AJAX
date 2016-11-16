@@ -5,22 +5,21 @@ import java.util.List;
 
 public class PagedResponse {
 	
-	private List<User> data = new ArrayList<>();
+	private List<Anime> data = new ArrayList<>();
 	
 	private int page;
 	private int totalPages;
 	
-	
-	public PagedResponse(List<User> data, int page, int totalPages) {
-		this.data = data;
+	public PagedResponse(List<Anime> pageOfAnimes, int page, int totalPages) {
+		this.data = pageOfAnimes;
 		this.page = page;
 		this.totalPages = totalPages;
 	}
 	
-	public List<User> getData() {
+	public List<Anime> getData() {
 		return data;
 	}
-	public void setData(List<User> data) {
+	public void setData(List<Anime> data) {
 		this.data = data;
 	}
 	public int getPage() {

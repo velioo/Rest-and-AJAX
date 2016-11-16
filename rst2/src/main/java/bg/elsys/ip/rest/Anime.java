@@ -1,6 +1,10 @@
 package bg.elsys.ip.rest;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Anime {
+	
+	@ApiModelProperty(required = true)
 	String name;
 	String type;
 	String studio;
@@ -8,7 +12,6 @@ public class Anime {
 	int episodes;
 
 	public Anime() {
-		
 	}
 
 	public Anime(String name, String type, String studio, int episodes, int air_year) {
