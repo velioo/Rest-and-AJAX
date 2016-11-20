@@ -8,27 +8,27 @@ public class Anime {
 	String name;
 	String type;
 	String studio;
-	int air_year;
-	int episodes;
+	Integer airYear;
+	Integer episodes;
 
 	public Anime() {
 	}
 
-	public Anime(String name, String type, String studio, int episodes, int air_year) {
+	public Anime(String name, String type, String studio, Integer episodes, Integer airYear) {
 		super();
 		this.name = name;
 		this.type = type;
 		this.studio = studio;
 		this.episodes = episodes;
-		this.air_year = air_year;
+		this.airYear = airYear;
 	}
 	
-	public int getAir_year() {
-		return air_year;
+	public Integer getAirYear() {
+		return airYear;
 	}
 
-	public void setAir_year(int air_year) {
-		this.air_year = air_year;
+	public void setAirYear(int airYear) {
+		this.airYear = airYear;
 	}
 
 	public String getType() {
@@ -47,7 +47,7 @@ public class Anime {
 		this.studio = studio;
 	}
 
-	public int getEpisodes() {
+	public Integer getEpisodes() {
 		return episodes;
 	}
 

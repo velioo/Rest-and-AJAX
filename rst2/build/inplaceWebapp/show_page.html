@@ -5,6 +5,8 @@
 	<title>Show Animes</title>
 	<script src = "//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script src="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.css">
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -12,6 +14,34 @@
 <div id="wrapper">
 	<h1 style="display:inline;">List of all animes</h1>
 	<a href="http://localhost:8080/rst2/add_page.html" style="margin-left:30px;"><button>Add new Anime</button></a>
+	<div class="show_div">
+		<label for="name_autocomplete" class="show_label" >Name</label>
+		<input id="name_autocomplete">
+	</div>
+	<div class="show_div">
+		<label class="show_label" for="types">Type</label>
+		<select id="types">
+			<option value="all">All</option>
+		</select>
+	</div>
+	<div class="show_div">
+		<label class="show_label" for="studios">Studio</label>
+		<select id="studios">
+			<option value="all">All</option>
+		</select>
+	</div>
+	<div class="show_div">
+		<label class="show_label" for="episodes">Eps</label>
+		<select id="episodes">
+			<option value="all">All</option>
+		</select>
+	</div>
+	<div class="show_div">
+		<label class="show_label" for="years">Air Year</label>
+		<select id="years">
+			<option value="all">All</option>
+		</select>
+	</div>
 	<table id="usersTable"></table>
 </div>
 </body>
